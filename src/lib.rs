@@ -33,3 +33,16 @@ impl Person{
         self.age
     }
 }
+
+pub struct Mapper<F, I>{
+    f: F,
+    pub(crate) iter: I,
+}
+
+impl<F, I> Mapper<F, I>{
+
+    pub fn map(f: F, i: I) where F: Fn()
+    {
+        
+    }
+}
