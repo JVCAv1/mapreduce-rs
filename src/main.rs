@@ -1,6 +1,6 @@
-mod person;
+mod lib;
 
-use crate::person::*;
+use crate::lib::*;
 
 fn main() {
     let mut p = Person::from("pedro", 33);
